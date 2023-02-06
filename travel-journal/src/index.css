@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav {
+  background: #F55A5A;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.nav--img {
+  width: 25px;
+  height: 25px;
+}
+
+.nav--text {
+  color: white;
+  font-size: 25px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
 }
