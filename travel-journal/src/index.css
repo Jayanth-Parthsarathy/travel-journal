@@ -35,3 +35,86 @@ code {
   line-height: 18px;
   letter-spacing: -0.075em;
 }
+
+
+.card{
+  height: 170px;
+  width: 500px;
+  display: flex;
+  margin: 30px;
+}
+
+.card--img{
+  width: 130px;
+  height: 170px
+}
+
+.card--body{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.card--location{
+  display: inline;
+  margin-right: 20px ;
+  height: 10px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-align: left;
+  
+}
+.card--maps{
+  display: inline;
+  color: gray;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+
+.card--title{
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.card--date{
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0;
+  
+}
+
+.card--desc{
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 6px;
+  
+}
+
+.location-logo{
+  width: 7px;
+  height: 10px;
+  margin-right: 5px;
+}
